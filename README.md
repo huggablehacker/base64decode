@@ -1,5 +1,5 @@
 # Base 64 Decode 
-Bash script to becode Base64 encoded text.
+Bash script to decode Base64 encoded text, when uploading encoded text to an online decoder is either impractical or the data being decoded is potentially sensitive.
 
 Save `b64e.sh` to desired directory.
 
