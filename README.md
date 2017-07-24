@@ -7,6 +7,6 @@ Modify `b64e.sh` argument's mode with `chmod a+x`
 
 Usage of this would be:
 
-`./base64decode.txt SGVsbG8gV29ybGQ=` 
+`./b64e.sh SGVsbG8gV29ybGQ=` 
 
-The resulting output file will be called `base64decode.txt` and be saved in the current directory.
+The resulting output file will be called `%m_%d_%Y.%H_%M_%S` where the former is the current date and time, and will be saved in the current directory.
